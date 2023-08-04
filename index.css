@@ -18,7 +18,7 @@ body {
     position: absolute;
 }
 
-#num-container {
+#num-input {
     width: 117px;
     height: 83px;
     border-style: solid;
@@ -35,3 +35,25 @@ body {
     background: wheat;
     margin-top: 25px;
 }
+
+#bottom-container {
+    position: absolute;
+    margin-top: 285px;
+}
+
+#top-result {
+    margin-top: 36px;
+}
+
+#bottom-result {
+    margin-bottom: 36px;
+}
+
+.results-box {
+    width: 500px;
+    height: 100px;
+    background-color: #B45309;
+    margin-left: 25px;
+}
+
+
