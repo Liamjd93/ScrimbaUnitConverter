@@ -4,18 +4,34 @@ body {
     color: wheat;
 }
 
+h1 {
+    padding-top: 10px;
+}
+
+h6 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+p {
+    padding-top: 0px;
+}
+
 #main {
     width: 550px;
     height: 729px;
-    background-color: #78350F;
+    background-color: #111827;
     position: relative;
 }
 
 #top-container {
     width: 550px;
     height: 285px;
-    background-color: #D97706;
+    background-color: #065F46;
     position: absolute;
+    text-align: center;
 }
 
 #num-input {
@@ -25,7 +41,13 @@ body {
     border-width: 2px;
     border-radius: 5px;
     border-color: wheat;
-    margin: auto;
+    margin-left: 216px;
+    margin-right: 216px;
+    background-color: #065F46;
+    text-align: center;
+    color: wheat;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 #convert-btn {
@@ -45,6 +67,11 @@ body {
     margin-top: 36px;
 }
 
+#mid-result {
+    margin-top: 36px;
+    margin-bottom: 36px;;
+}
+
 #bottom-result {
     margin-bottom: 36px;
 }
@@ -52,8 +79,9 @@ body {
 .results-box {
     width: 500px;
     height: 100px;
-    background-color: #B45309;
-    margin-left: 25px;
+    background-color: #059669;
+    margin-left: 20px;
+    line-height: 20px;
 }
 
 

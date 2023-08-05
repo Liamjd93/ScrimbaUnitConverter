@@ -6,9 +6,6 @@ const ft2m = 0.305
 const g2l = 4.546
 const p2kg = 0.454
 
-
-
-
 convertBtn.addEventListener("click", function(){
     clear()
     let numInput = document.getElementById("num-input").value
@@ -27,9 +24,7 @@ convertBtn.addEventListener("click", function(){
 })
 
 function clear() {
-    console.log("Clear function")
     document.getElementById("top-result").innerHTML = `<h6>Length (Meter/Feet)</h6>`
     document.getElementById("mid-result").innerHTML = `<h6>Volume (Liters/Gallons)</h6>`
     document.getElementById("bottom-result").innerHTML = `<h6>Mass (Kilograms/Pounds)</h6>`
-    console.log(document.getElementById("top-result").innerHTML)
 }
